@@ -15,11 +15,11 @@ A simple blog created using django,<br> <b>General Instructions</b>:
 ## To operate on the site's deployment:
 * sudo snap install --classic heroku to install heroku and run heroku command to check installation
 * use heroku login to login: credentials: ***********@******.com, ***********
-* ensure that directory has git version control, if not then git init, git add -A, git commit -m "initial commit"
-* after heroku login , check the releases with heroku releases
-* to run migrations: heroku run python3 manage.py migrate
-* for logging into the server bash: heroku run bash 
-* git push heroku master to push to heroku remote
+* ensure that directory has git version control, if not then <code>git init</code>, <code>git add -A</code>, <code>git commit -m "initial commit"</code>
+* after heroku login , check the releases with <code>heroku releases</code>
+* to run migrations: <code>heroku run python3 manage.py migrate</code>
+* for logging into the server bash: <code>heroku run bash</code> 
+* <code>git push heroku master</code> to push to heroku remote
 
 ## Targets:
  - [x] Deploy the blog in a free way 

@@ -13,7 +13,7 @@ A simple blog created using django,<br> <b>General Instructions</b>:
 * or register as a user
 
 ## To operate on the site's deployment:
-* sudo snap install --classic heroku to install heroku and run heroku command to check installation
+* <code>sudo snap install --classic heroku</code> to install heroku and run heroku command to check installation
 * use heroku login to login: credentials: ***********@******.com, ***********
 * ensure that directory has git version control, if not then <code>git init</code>, <code>git add -A</code>, <code>git commit -m "initial commit"</code>
 * after heroku login , check the releases with <code>heroku releases</code>
